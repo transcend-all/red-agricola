@@ -1,0 +1,2 @@
+class Garlic < ApplicationRecord
+end

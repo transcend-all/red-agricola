@@ -1,0 +1,47 @@
+<div class="centered">
+  <table class="display-table">
+    <tr>
+      <th>Name</th>
+      <th>Planted</th>
+      <th>Harvested</th>
+      <th>Active</th>
+      <th>Comments</th>
+    </tr>
+  <% @garlic.each do |g| %>
+    <tr>
+      <td><%= g.name %></td>
+      <td><%= g.planted %></td>
+      <td><%= g.harvested %></td>
+      <td><%= g.active %></td>
+      <td><%= g.comments %></td>
+    </tr>
+  <% end %>
+  <% @redonion.each do |ro| %>
+    <tr>
+      <td><%= ro.name %></td>
+      <td><%= ro.planted %></td>
+      <td><%= ro.harvested %></td>
+      <td><%= ro.active %></td>
+      <td><%= ro.comments %></td>
+    </tr>
+  <% end %>
+  <% @mango.each do |m| %>
+    <tr>
+      <td><%= m.name %></td>
+      <td><%= m.planted %></td>
+      <td><%= m.harvested %></td>
+      <td><%= m.active %></td>
+      <td><%= m.comments %></td>
+    </tr>
+  <% end %>
+  <% @whiteonion.each do |wo| %>
+    <tr>
+      <td><%= wo.name %></td>
+      <td><%= wo.planted %></td>
+      <td><%= wo.harvested %></td>
+      <td><%= wo.active %></td>
+      <td><%= wo.comments %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>

@@ -1,0 +1,2 @@
+class WhiteOnion < ApplicationRecord
+end

@@ -9,10 +9,14 @@ class Garlic < ApplicationRecord
     end
   end
 
+
+# import data
   def self.import(file)
     CSV.foreach(file.path, headers: true) do |row|
       Garlic.create! row.to_hash
     end
   end
+
+
 
 end

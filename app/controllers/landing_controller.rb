@@ -5,6 +5,11 @@ class LandingController < ApplicationController
     @redonion = RedOnion.all
     @mango = Mango.all
     @whiteonion = WhiteOnion.all
+
+    respond_to do |format|
+      format.html
+      format.csv { render text: @garlic.to_csv }
+    end
   end
 
 end

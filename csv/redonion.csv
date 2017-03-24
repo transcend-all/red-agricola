@@ -1,0 +1,6 @@
+id,name,planted,harvested,active,comments,created_at,updated_at
+10,RO1,"Sat, March 11, 2016",,false,"Found dug up and not germinated, 3/22. Placed in germination chamber.",2017-03-11 22:14:23 UTC,2017-03-22 16:07:21 UTC
+11,RO2,"Sat. March 11, 2017",,true,Planted in raised bed area. Not germinated beforehand.,2017-03-11 22:16:21 UTC,2017-03-11 22:26:28 UTC
+12,RO3,"Sat. March 11, 2017",,true,Planted at development side of forest area. Not germinated beforehand.,2017-03-11 22:17:01 UTC,2017-03-11 22:26:58 UTC
+13,RO4,"Sun. March 12, 2017",,true,Planted under master bedroom window. Sprouted but weak looking when planted.,2017-03-12 20:00:55 UTC,2017-03-12 20:00:55 UTC
+14,RO5,"Wed. March 22, 2017",,true,Planted in garden area,2017-03-22 15:58:42 UTC,2017-03-22 15:59:15 UTC

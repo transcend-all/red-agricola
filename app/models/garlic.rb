@@ -13,7 +13,7 @@ class Garlic < ApplicationRecord
 # import data
   def self.import(file)
     CSV.foreach(file.path, headers: true) do |row|
-      WhiteOnion.create! row.to_hash
+      Garlic.create! row.to_hash
     end
   end
 

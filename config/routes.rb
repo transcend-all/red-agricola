@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
 
-  resources :garlic, only: [:index] do
+  resources :grapefruit
+
+  resources :mango
+
+  resources :whiteonion
+
+  resources :redonion
+
+  resources :garlic do
     collection { post :import }
   end
 

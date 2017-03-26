@@ -8,6 +8,13 @@ class GarlicController < ApplicationController
     end
   end
 
+  def destroy
+    @garlic = Garlic.find(params[:id])
+    @garlic.destroy
+
+    redirect_to root_path
+  end
+
   def import
     Garlic.import(params[:file])
     redirect_to root_path

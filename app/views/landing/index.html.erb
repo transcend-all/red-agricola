@@ -6,6 +6,7 @@
       <th>Harvested</th>
       <th>Active</th>
       <th>Comments</th>
+      <th></th>
     </tr>
   <% @garlic.each do |g| %>
     <tr>
@@ -14,6 +15,11 @@
       <td><%= g.harvested %></td>
       <td><%= g.active %></td>
       <td><%= g.comments %></td>
+      <td><%= link_to 'Delete',
+        garlic_path(g),
+        method: :delete,
+        data: { confirm: 'Are you sure?' }
+      %></td>
     </tr>
   <% end %>
   <% @redonion.each do |ro| %>

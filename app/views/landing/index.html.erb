@@ -29,6 +29,11 @@
       <td><%= ro.harvested %></td>
       <td><%= ro.active %></td>
       <td><%= ro.comments %></td>
+      <td><%= link_to 'Delete',
+        redonion_path(ro),
+        method: :delete,
+        data: { confirm: 'Are you sure?' }
+      %></td>
     </tr>
   <% end %>
   <% @mango.each do |m| %>
@@ -38,6 +43,11 @@
       <td><%= m.harvested %></td>
       <td><%= m.active %></td>
       <td><%= m.comments %></td>
+      <td><%= link_to 'Delete',
+        mango_path(m),
+        method: :delete,
+        data: { confirm: 'Are you sure?' }
+      %></td>
     </tr>
   <% end %>
   <% @whiteonion.each do |wo| %>
@@ -47,6 +57,11 @@
       <td><%= wo.harvested %></td>
       <td><%= wo.active %></td>
       <td><%= wo.comments %></td>
+      <td><%= link_to 'Delete',
+        whiteonion_path(wo),
+        method: :delete,
+        data: { confirm: 'Are you sure?' }
+      %></td>
     </tr>
   <% end %>
   </table>

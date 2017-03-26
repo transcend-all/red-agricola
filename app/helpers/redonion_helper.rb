@@ -1,0 +1,2 @@
+module RedonionHelper
+end

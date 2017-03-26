@@ -1,0 +1,2 @@
+module WhiteonionHelper
+end

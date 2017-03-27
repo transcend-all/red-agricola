@@ -1,0 +1,28 @@
+<div class="centered">
+  <table class="display-table">
+    <tr>
+      <th>Name</th>
+      <th>Planted</th>
+      <th>Harvested</th>
+      <th>Active</th>
+      <th>Comments</th>
+    </tr>
+  <% @whiteonion.each do |wo| %>
+    <tr>
+      <td><%= wo.name %></td>
+      <td><%= wo.planted %></td>
+      <td><%= wo.harvested %></td>
+      <td><%= wo.active %></td>
+      <td><%= wo.comments %></td>
+    </tr>
+  <% end %>
+  </table>
+
+<h2>Import</h2>
+
+<%= form_tag import_whiteonion_index_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+
+</div>

@@ -1,12 +1,20 @@
 Rails.application.routes.draw do
 
-  resources :grapefruit
+  resources :grapefruit do
+    collection { post :import }
+  end
 
-  resources :mango
+  resources :mango do
+    collection { post :import }
+  end
 
-  resources :whiteonion
+  resources :whiteonion do
+    collection { post :import }
+  end
 
-  resources :redonion
+  resources :redonion do
+    collection { post :import }
+  end
 
   resources :garlic do
     collection { post :import }

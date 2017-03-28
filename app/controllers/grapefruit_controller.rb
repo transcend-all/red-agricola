@@ -1,0 +1,2 @@
+class GrapefruitController < ApplicationController
+end

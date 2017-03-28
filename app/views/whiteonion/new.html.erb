@@ -1,0 +1,21 @@
+<div class="centered">
+New White Onion
+
+<%= form_for @whiteonion do |wo| %>
+  <div class='form-group'>
+    <%= wo.label :name %>
+    <%= wo.text_field :name %>
+  </div>
+  <div class='form-group'>
+    <%= wo.label :planted %>
+    <%= wo.text_field :planted %>
+  </div>
+  <div class='form-group'>
+    <%= wo.label :comments %>
+    <%= wo.text_area :comments, rows: 8 %>
+  </div>
+  <%= wo.submit "Save", class: 'btn btn-success' %>
+
+<% end %>
+
+</div>

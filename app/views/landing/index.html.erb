@@ -15,7 +15,11 @@
       <td><%= g.harvested %></td>
       <td><%= g.active %></td>
       <td><%= g.comments %></td>
-      <td><%= link_to 'Delete',
+      <td><%= link_to 'Edit',
+        edit_garlic_path(g),
+        class: 'btn btn-success'
+      %>
+      <%= link_to 'Delete',
         garlic_path(g),
         method: :delete,
         data: { confirm: 'Are you sure?' }

@@ -16,7 +16,7 @@ Rails.application.routes.draw do
     collection { post :import }
   end
 
-  resources :garlic do
+  resources :garlics do
     collection { post :import }
   end
 

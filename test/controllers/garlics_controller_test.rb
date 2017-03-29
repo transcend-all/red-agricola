@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GarlicControllerTest < ActionDispatch::IntegrationTest
+class GarlicsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

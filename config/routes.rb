@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'charts/index'
+
   resources :grapefruit do
     collection { post :import }
   end

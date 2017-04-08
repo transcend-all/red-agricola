@@ -21,13 +21,13 @@ class GarlicsController < ApplicationController
     end
 
     def create
-      @garlic = Garlic.new(params[:garlic])
+      @garlic = Garlic.new
       @garlic.name = params[:garlic][:name]
       @garlic.planted = params[:garlic][:planted]
       @garlic.active = true
       @garlic.comments = params[:garlic][:comments]
 
-      if @garlic.save!
+      if @garlic.save
         flash[:notice] = "Garlic added to database."
         redirect_to root_path
       else

@@ -8,13 +8,27 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
 
   </head>
 
   <body>
     <div class="centered">
-      <h1 class="title">Agricola</h1>
+
+      <%= link_to 'agricola', root_path, class: 'title' %>
+      
+
+      <%= link_to 'My Plants', charts_index_path, class: "btn custom" %>
+      <%= link_to 'Garden Data', charts_index_path, class: "btn custom" %>
+      <%= link_to 'Weather', charts_index_path, class: "btn custom" %>
+
+      <div class="sign-in">
+        Sign In | Sign Up
+      </div>
+      <div class="yield">
         <%= yield %>
+      </div>
     </div>
   </body>
 </html>

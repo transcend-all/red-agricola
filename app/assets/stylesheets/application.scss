@@ -13,3 +13,84 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+body {
+  background-color: #719171;
+}
+
+.yield {
+  clear: both;
+}
+
+.title {
+  // font-family: 'Jim Nightshade', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 6em;
+  float: left;
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.landing-header {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 7em;
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  text-align: left;
+  z-index: 4;
+}
+
+.centered {
+  text-align: center;
+}
+
+.display-table {
+  margin: auto;
+}
+
+th {
+  background: #719191;
+  color: black;
+  padding: 5px;
+  font-size: 2em;
+  text-align: center;
+}
+
+td {
+  padding: 3px;
+}
+
+.btn.custom {
+  color: white;
+  background-color: #434f34;
+  text-decoration: none;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.sign-in {
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.gradient-bg {
+  background: linear-gradient(#719171, #434f34);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 80%;
+  width: 100%;
+  z-index: -1;
+}

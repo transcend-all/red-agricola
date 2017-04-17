@@ -1,0 +1,87 @@
+.cc-title {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  text-align: left;
+}
+
+.charts {
+  float: right;
+  // border: 1px solid white;
+  position: relative;
+  right: 50px;
+  border-radius: 10px;
+  padding: 30px;
+  height: 80vh;
+  width: 50%;
+}
+
+.graph-sub {
+  width: 100%;
+  height: 70vh;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.graph-text {
+  position: relative;
+  top: 45%;
+  color: black;
+}
+
+.graph-subtext{
+  margin-bottom: 10px;
+}
+
+.water-controls{
+  position: absolute;
+  left: 100px;
+  top: 35%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 35%;
+  height: 52vh;
+}
+
+.manual-water {
+
+}
+
+.manual-water-description{
+  position: relative;
+  top: 25px;
+}
+
+.manual-water-buttons{
+  display: block;
+  clear: both;
+}
+
+.calendar {
+  height: 150px;
+  width: 170px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  position: relative;
+  left: 60%;
+}
+
+.calendar-text {
+  position: relative;
+  top: 45%;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  right: 100px;
+  top: 90px;
+}
+
+.dropdown-menu {
+  position: relative;
+  right: 100px;
+  top: 90px;
+}

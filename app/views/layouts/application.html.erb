@@ -9,7 +9,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Diplomata+SC|Rakkas|Sail" rel="stylesheet">
 
   </head>
 
@@ -17,18 +17,19 @@
     <div class="centered">
 
       <%= link_to 'agricola', root_path, class: 'title' %>
-      
 
-      <%= link_to 'My Plants', charts_index_path, class: "btn custom" %>
-      <%= link_to 'Garden Data', charts_index_path, class: "btn custom" %>
-      <%= link_to 'Weather', charts_index_path, class: "btn custom" %>
+      <%= link_to 'About', about_index_path, class: "btn custom" %>
+      <%= link_to 'Plants', plants_index_path, class: "btn custom" %>
+      <!-- <%= link_to 'Data', charts_index_path, class: "btn custom" %> -->
+      <%= link_to 'Control Center', controls_index_path, class: "btn custom" %>
 
-      <div class="sign-in">
-        Sign In | Sign Up
-      </div>
+      <%= link_to "Sign In", new_user_path, class: "sign-in" %>
+
       <div class="yield">
         <%= yield %>
       </div>
+
+
     </div>
   </body>
 </html>

@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'landing/spreadsheet'
+
+  get 'landing/api'
+
+  get 'controls/index'
+
+  get 'plants/index'
+
+  get 'about/index'
+
   get 'charts/index'
 
   resources :grapefruit do

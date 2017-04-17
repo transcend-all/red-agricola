@@ -1,0 +1,47 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.video-div {
+  margin: auto;
+  height: 50vh;
+  width: 70%;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+.video-div-text {
+  position: relative;
+  top: 45%;
+  color: black;
+}
+
+.technology-list-div {
+  float: right;
+}
+
+.technology-list {
+  list-style-type: none;
+}
+
+.image-div {
+  float: left;
+}
+
+.about-img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.about-description {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

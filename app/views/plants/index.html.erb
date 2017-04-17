@@ -1,0 +1,130 @@
+<div class="centered">
+  <h1>Plants</h1>
+
+  <div class="dropdown dropdown-plants">
+    <button class="btn custom dropdown-toggle" type="button" data-toggle="dropdown">View <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <li>Garlic</li>
+        <li>Onion</li>
+        <li>Grapefruit</li>
+        <li>Sunflower</li>
+        <li>Cantaloupe</li>
+        <li>Blueberry</li>
+        <li>Meyer Lemon</li>
+        <li>Meyer Lemon/Key Lime</li>
+        <li>Pinto Bean</li>
+        <li>Red Bean</li>
+        <li>Speckled Bean</li>
+        <li>Watermelon</li>
+        <li>Safflower</li>
+        <li>Tangerine</li>
+        <li>Blood Orange</li>
+        <li>Saffron</li>
+        <li>Mango</li>
+        <li>Date</li>
+        <li>Rosemary</li>
+        <li>Oregano</li>
+        <li>Amaryllis</li>
+        <li>Live Oak</li>
+        <li>Basil</li>
+        <li>Lime Basil</li>
+        <li>Cherry Tomato</li>
+        <li>Sage</li>
+      </ul>
+  </div>
+
+
+
+
+  <table class="display-table">
+    <tr>
+      <th class="th-left">Picture</th>
+      <th>Name</th>
+      <th>Planted</th>
+      <th>Harvested</th>
+      <th>Active</th>
+      <th>Comments</th>
+      <th class="th-right"></th>
+    </tr>
+  <% @garlic.each do |g| %>
+    <tr>
+      <td><div class="plant-pic"></div></td>
+      <td><%= g.name %></td>
+      <td><%= g.planted %></td>
+      <td><%= g.harvested %></td>
+      <td><%= g.active %></td>
+      <td><%= g.comments %></td>
+      <td><%= link_to 'Edit',
+        edit_garlic_path(g),
+        class: 'btn btn-default'
+      %>
+      <%= link_to 'Delete',
+        garlic_path(g),
+        method: :delete,
+        class: 'btn btn-danger',
+        data: { confirm: 'Are you sure?' }
+      %></td>
+    </tr>
+  <% end %>
+  <% @redonion.each do |ro| %>
+    <tr>
+      <td><div class="plant-pic"></div></td>
+      <td><%= ro.name %></td>
+      <td><%= ro.planted %></td>
+      <td><%= ro.harvested %></td>
+      <td><%= ro.active %></td>
+      <td><%= ro.comments %></td>
+      <td><%= link_to 'Edit',
+        edit_redonion_path(ro),
+        class: 'btn btn-default'
+      %>
+      <%= link_to 'Delete',
+        redonion_path(ro),
+        method: :delete,
+        class: 'btn btn-danger',
+        data: { confirm: 'Are you sure?' }
+      %></td>
+    </tr>
+  <% end %>
+  <% @mango.each do |m| %>
+    <tr>
+      <td><div class="plant-pic"></div></td>
+      <td><%= m.name %></td>
+      <td><%= m.planted %></td>
+      <td><%= m.harvested %></td>
+      <td><%= m.active %></td>
+      <td><%= m.comments %></td>
+      <td><%= link_to 'Edit',
+        edit_mango_path(m),
+        class: 'btn btn-default'
+      %>
+      <%= link_to 'Delete',
+        mango_path(m),
+        method: :delete,
+        class: 'btn btn-danger',
+        data: { confirm: 'Are you sure?' }
+      %></td>
+    </tr>
+  <% end %>
+  <% @whiteonion.each do |wo| %>
+    <tr>
+      <td><div class="plant-pic"></div></td>
+      <td><%= wo.name %></td>
+      <td><%= wo.planted %></td>
+      <td><%= wo.harvested %></td>
+      <td><%= wo.active %></td>
+      <td><%= wo.comments %></td>
+      <td><%= link_to 'Edit',
+        edit_whiteonion_path(wo),
+        class: 'btn btn-default'
+      %>
+      <%= link_to 'Delete',
+        whiteonion_path(wo),
+        method: :delete,
+        class: 'btn btn-danger',
+        data: { confirm: 'Are you sure?' }
+      %></td>
+    </tr>
+  <% end %>
+  </table>
+</div>

@@ -56,3 +56,5 @@ gem 'bootstrap-sass'
 gem 'bcrypt'
 gem 'rails_12factor'
 gem 'responders'
+gem 'google-api-client'
+gem "omniauth-google-oauth2", "~> 0.2.1"

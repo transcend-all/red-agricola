@@ -53,6 +53,7 @@ body {
 
 .centered {
   text-align: center;
+  color: white;
 }
 
 .display-table {
@@ -60,11 +61,21 @@ body {
 }
 
 th {
-  background: #719191;
-  color: black;
-  padding: 5px;
+  background: #434f34;
+  color: white;
+  padding: 20px;
   font-size: 2em;
   text-align: center;
+}
+
+.th-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.th-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 td {
@@ -80,9 +91,16 @@ td {
 }
 
 .sign-in {
+  color: white;
   float: right;
   margin-top: 50px;
   margin-right: 50px;
+
+}
+
+.sign-in:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .gradient-bg {
@@ -93,4 +111,48 @@ td {
   height: 80%;
   width: 100%;
   z-index: -1;
+}
+
+.after-gradient {
+  background: #434f34;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.after-gradient-content {
+  position: relative;
+  top: 100px;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: auto;
+  font-family: Ubuntu, sans-serif;
+}
+
+.footer {
+  height: 50vh;
+  width: 100%;
+  background-color: #719171;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.form-custom-input {
+  width: 20%;
+  margin: auto;
+}
+
+.sign-in-inputs {
+  position: relative;
+  top: 50px;
+}
+
+.dropdown-menu{
+  color: black;
+  width: 20%;
 }

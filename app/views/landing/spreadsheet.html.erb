@@ -1,0 +1,39 @@
+
+asdf
+
+<script>
+var test = {
+  "requests": [
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": "1zsRLfKqm4Qw-6LN7xd4UtX1QyuYjitHPlMwFUKQOiPw",
+          "dimension": "COLUMNS",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "properties": {
+          "pixelSize": 160
+        },
+        "fields": "pixelSize"
+      }
+    },
+    {
+      "updateDimensionProperties": {
+        "range": {
+          "sheetId": "1zsRLfKqm4Qw-6LN7xd4UtX1QyuYjitHPlMwFUKQOiPw",
+          "dimension": "ROWS",
+          "startIndex": 0,
+          "endIndex": 3
+        },
+        "properties": {
+          "pixelSize": 40
+        },
+        "fields": "pixelSize"
+      }
+    }
+  ]
+}
+</script>
+
+<script src="https://sheets.googleapis.com/v4/spreadsheets/1zsRLfKqm4Qw-6LN7xd4UtX1QyuYjitHPlMwFUKQOiPw:batchUpdate"></script>

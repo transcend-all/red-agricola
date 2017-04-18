@@ -58,3 +58,4 @@ gem 'rails_12factor'
 gem 'responders'
 gem 'google-api-client'
 gem "omniauth-google-oauth2", "~> 0.2.1"
+gem 'omniauth-oauth2', '~> 1.3.1'

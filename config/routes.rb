@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  get 'auth/google_oauth2/callback', to: 'users#new'
+  get 'auth/failure', to: redirect('/')
+
   get 'landing/spreadsheet'
 
   get 'landing/api'

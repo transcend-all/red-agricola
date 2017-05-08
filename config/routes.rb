@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   get 'charts/index'
 
+  get 'plants/index'
 
   resources :plants do
     collection { post :import }

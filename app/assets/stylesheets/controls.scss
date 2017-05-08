@@ -19,7 +19,6 @@
 .graph-sub {
   width: 100%;
   height: 70vh;
-  background-color: #e0e0e0;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -63,7 +62,7 @@
   height: 150px;
   width: 170px;
   border-radius: 10px;
-  background-color: #e0e0e0;
+  background-color: lightblue;
   position: relative;
   left: 60%;
 }
@@ -71,7 +70,8 @@
 .calendar-text {
   position: relative;
   top: 45%;
-  color: black;
+  color: lightsalmon;
+  text-shadow: 1px 1px black;
 }
 
 .dropdown {

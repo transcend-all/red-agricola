@@ -1,0 +1,20 @@
+id,type,name,planted,harvested,active,comments,created_at,updated_at
+1,Garlic,G1,"Sat. March 11, 2016",,true,Planted in bed under master bedroom windowsill,2017-03-11 21:37:38 UTC,2017-03-11 21:37:38 UTC
+2,Garlic,G2,"Sat. March 11, 2017",,true,Planted in front of large holly bush,2017-03-11 22:08:00 UTC,2017-03-11 22:08:00 UTC
+3,Garlic,G3,"Sat. March 11, 2017",,true,Planted in raised bed area,2017-03-11 22:10:01 UTC,2017-03-11 22:10:01 UTC
+4,Garlic,G4,"Sat. March 11, 2017",,true,Planted in front yard,2017-03-11 22:10:37 UTC,2017-03-11 22:10:37 UTC
+5,Garlic,G5,"Sat. March 11, 2017",,true,"Planted in front of holly bush, under crape myrtle",2017-03-11 22:11:16 UTC,2017-03-11 22:11:16 UTC
+6,Garlic,G6,"Sat. March 11, 2017",,true,Planted at development side of forest area,2017-03-11 22:12:08 UTC,2017-03-11 22:12:08 UTC
+7,Garlic,G07,"Wed. March 22, 2017",,true,Planted in garden area,2017-03-22 16:05:30 UTC,2017-03-22 16:05:30 UTC
+8,Garlic,G08,"Wed. March 22, 2017",,true,Planted in garden area,2017-03-22 16:05:48 UTC,2017-03-22 16:05:48 UTC
+9,Mango,M01,"Sat, Mar. 18, 2017",,true,"Planted in pot, currently on back porch",2017-03-18 18:57:06 UTC,2017-03-18 18:57:06 UTC
+10,Red Onion,RO1,"Sat, March 11, 2016",,false,"Found dug up and not germinated, 3/22. Placed in germination chamber.",2017-03-11 22:14:23 UTC,2017-03-22 16:07:21 UTC
+11,Red Onion,RO2,"Sat. March 11, 2017",,true,Planted in raised bed area. Not germinated beforehand.,2017-03-11 22:16:21 UTC,2017-03-11 22:26:28 UTC
+12,Red Onion,RO3,"Sat. March 11, 2017",,true,Planted at development side of forest area. Not germinated beforehand.,2017-03-11 22:17:01 UTC,2017-03-11 22:26:58 UTC
+13,Red Onion,RO4,"Sun. March 12, 2017",,true,Planted under master bedroom window. Sprouted but weak looking when planted.,2017-03-12 20:00:55 UTC,2017-03-12 20:00:55 UTC
+14,Red Onion,RO5,"Wed. March 22, 2017",,true,Planted in garden area,2017-03-22 15:58:42 UTC,2017-03-22 15:59:15 UTC
+15,White Onion,WO01,"Sat, Mar. 18, 2017",,true,Planted under master bedroom window,2017-03-18 19:44:51 UTC,2017-03-18 19:44:51 UTC
+16,White Onion,WO02,"Sat, Mar. 18, 2017",,true,Planted on far side of prickly bush,2017-03-18 19:45:28 UTC,2017-03-18 19:45:28 UTC
+17,White Onion,WO03,"Sat, Mar. 18, 2017",,true,Planted next to wooded area,2017-03-18 19:45:58 UTC,2017-03-18 19:45:58 UTC
+18,White Onion,WO04,"Sat, Mar. 18, 2017",,true,Planted in garden area,2017-03-18 19:46:21 UTC,2017-03-18 19:46:21 UTC
+19,White Onion,WO05,"Wed. March 22, 2017",,true,Planted in garden area. Weak on planting.,2017-03-22 16:15:09 UTC,2017-03-22 16:15:09 UTC

@@ -46,80 +46,20 @@
       <th>Comments</th>
       <th class="th-right"></th>
     </tr>
-  <% @garlic.each do |g| %>
+  <% @plant.each do |p| %>
     <tr>
       <td><div class="plant-pic"></div></td>
-      <td><%= g.name %></td>
-      <td><%= g.planted %></td>
-      <td><%= g.harvested %></td>
-      <td><%= g.active %></td>
-      <td><%= g.comments %></td>
+      <td><%= p.name %></td>
+      <td><%= p.planted %></td>
+      <td><%= p.harvested %></td>
+      <td><%= p.active %></td>
+      <td><%= p.comments %></td>
       <td><%= link_to 'Edit',
-        edit_garlic_path(g),
+        edit_plant_path(p),
         class: 'btn btn-default'
       %>
       <%= link_to 'Delete',
-        garlic_path(g),
-        method: :delete,
-        class: 'btn btn-danger',
-        data: { confirm: 'Are you sure?' }
-      %></td>
-    </tr>
-  <% end %>
-  <% @redonion.each do |ro| %>
-    <tr>
-      <td><div class="plant-pic"></div></td>
-      <td><%= ro.name %></td>
-      <td><%= ro.planted %></td>
-      <td><%= ro.harvested %></td>
-      <td><%= ro.active %></td>
-      <td><%= ro.comments %></td>
-      <td><%= link_to 'Edit',
-        edit_redonion_path(ro),
-        class: 'btn btn-default'
-      %>
-      <%= link_to 'Delete',
-        redonion_path(ro),
-        method: :delete,
-        class: 'btn btn-danger',
-        data: { confirm: 'Are you sure?' }
-      %></td>
-    </tr>
-  <% end %>
-  <% @mango.each do |m| %>
-    <tr>
-      <td><div class="plant-pic"></div></td>
-      <td><%= m.name %></td>
-      <td><%= m.planted %></td>
-      <td><%= m.harvested %></td>
-      <td><%= m.active %></td>
-      <td><%= m.comments %></td>
-      <td><%= link_to 'Edit',
-        edit_mango_path(m),
-        class: 'btn btn-default'
-      %>
-      <%= link_to 'Delete',
-        mango_path(m),
-        method: :delete,
-        class: 'btn btn-danger',
-        data: { confirm: 'Are you sure?' }
-      %></td>
-    </tr>
-  <% end %>
-  <% @whiteonion.each do |wo| %>
-    <tr>
-      <td><div class="plant-pic"></div></td>
-      <td><%= wo.name %></td>
-      <td><%= wo.planted %></td>
-      <td><%= wo.harvested %></td>
-      <td><%= wo.active %></td>
-      <td><%= wo.comments %></td>
-      <td><%= link_to 'Edit',
-        edit_whiteonion_path(wo),
-        class: 'btn btn-default'
-      %>
-      <%= link_to 'Delete',
-        whiteonion_path(wo),
+        plant_path(p),
         method: :delete,
         class: 'btn btn-danger',
         data: { confirm: 'Are you sure?' }

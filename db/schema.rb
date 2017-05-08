@@ -10,42 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170329143604) do
+ActiveRecord::Schema.define(version: 20170421151028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "garlics", force: :cascade do |t|
-    t.string   "name"
-    t.string   "planted"
-    t.string   "harvested"
-    t.boolean  "active"
-    t.text     "comments"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "grapefruits", force: :cascade do |t|
-    t.string   "name"
-    t.string   "planted"
-    t.string   "harvested"
-    t.boolean  "active"
-    t.text     "comments"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "mangos", force: :cascade do |t|
-    t.string   "name"
-    t.string   "planted"
-    t.string   "harvested"
-    t.boolean  "active"
-    t.text     "comments"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "red_onions", force: :cascade do |t|
+  create_table "plants", force: :cascade do |t|
+    t.string   "type"
     t.string   "name"
     t.string   "planted"
     t.string   "harvested"
@@ -61,16 +32,6 @@ ActiveRecord::Schema.define(version: 20170329143604) do
     t.string   "password_digest"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
-  end
-
-  create_table "white_onions", force: :cascade do |t|
-    t.string   "name"
-    t.string   "planted"
-    t.string   "harvested"
-    t.boolean  "active"
-    t.text     "comments"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
 end

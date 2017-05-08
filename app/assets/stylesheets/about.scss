@@ -18,6 +18,8 @@
 
 .technology-list-div {
   float: right;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .technology-list {

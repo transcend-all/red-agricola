@@ -1,14 +1,12 @@
 class LandingController < ApplicationController
 
   def index
-    @garlic = Garlic.all
-    @redonion = RedOnion.all
-    @mango = Mango.all
-    @whiteonion = WhiteOnion.all
+    @plant = Plant.all
+
 
     respond_to do |format|
       format.html
-      format.csv { render text: @garlic.to_csv }
+      format.csv { render text: @plant.to_csv }
     end
   end
 

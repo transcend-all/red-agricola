@@ -5,33 +5,18 @@ Rails.application.routes.draw do
 
   get 'landing/spreadsheet'
 
+  get 'landing/test'
+
   get 'landing/api'
 
   get 'controls/index'
-
-  get 'plants/index'
 
   get 'about/index'
 
   get 'charts/index'
 
-  resources :grapefruit do
-    collection { post :import }
-  end
 
-  resources :mango do
-    collection { post :import }
-  end
-
-  resources :whiteonion do
-    collection { post :import }
-  end
-
-  resources :redonion do
-    collection { post :import }
-  end
-
-  resources :garlics do
+  resources :plants do
     collection { post :import }
   end
 

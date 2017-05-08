@@ -21,14 +21,29 @@
   <body>
     <div class="centered">
 
-      <%= link_to 'agricola', root_path, class: 'title' %>
+      <div class="container-fluid navbar navbar-default">
 
-      <%= link_to 'About', about_index_path, class: "btn custom" %>
-      <%= link_to 'Plants', plants_index_path, class: "btn custom" %>
-      <!-- <%= link_to 'Data', charts_index_path, class: "btn custom" %> -->
-      <%= link_to 'Control Center', controls_index_path, class: "btn custom" %>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to 'agricola', root_path, class: 'title navbar-header'%>
 
-      <%= link_to "Sign In", new_user_path, class: "sign-in" %>
+          <div class="col-md-6">
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav">
+              <li><%= link_to 'About', about_index_path, class: "btn custom" %></li>
+              <li><%= link_to 'Plants', plants_path, class: "btn custom" %></li>
+              <li><%= link_to 'Control Center', controls_index_path, class: "btn custom" %></li>
+              <li><%= link_to "Sign In", new_user_path, class: "sign-in" %></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+    </div>
 
       <div class="yield">
         <%= yield %>

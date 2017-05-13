@@ -19,7 +19,7 @@
 
 
 body {
-  background-color: #719171;
+  background-color: white;
 }
 
 .yield {
@@ -28,8 +28,8 @@ body {
 
 .title {
   // font-family: 'Jim Nightshade', cursive;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 6vw;
+  font-family: 'Cinzel', serif;
+  font-size: 5vw;
   float: left;
   margin-left: 50px;
   color: black;
@@ -42,7 +42,7 @@ body {
 }
 
 .landing-header {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-size: 7em;
   position: absolute;
   left: 10%;
@@ -54,6 +54,14 @@ body {
 .centered {
   text-align: center;
   color: white;
+}
+
+.centered-datapage{
+  margin: auto;
+  color: black;
+  font-family: 'Cinzel', sans-serif;
+  position: relative;
+  top: 50px;
 }
 
 .display-table {
@@ -82,9 +90,11 @@ td {
   padding: 3px;
 }
 
+
+
 .btn.custom {
   color: white;
-  background-color: #434f34;
+  background-color: white;
   text-decoration: none;
   margin-right: 50px;
   margin-top: 50px;
@@ -103,22 +113,22 @@ td {
   color: white;
 }
 
-.gradient-bg {
-  background: linear-gradient(#719171, #434f34);
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  height: 80%;
-  width: 100%;
-  z-index: -1;
-}
-
-.after-gradient {
-  background: #434f34;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-}
+// .gradient-bg {
+//   background: linear-gradient(#719171, #434f34);
+//   position: absolute;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 80%;
+//   width: 100%;
+//   z-index: -1;
+// }
+//
+// .after-gradient {
+//   background: #434f34;
+//   position: absolute;
+//   top: 100%;
+//   width: 100%;
+// }
 
 .after-gradient-content {
   position: relative;
@@ -127,10 +137,10 @@ td {
 
 .content {
   text-align: center;
-  color: white;
+  color: black;
   width: 80%;
   margin: auto;
-  font-family: Ubuntu, sans-serif;
+  font-family: Cinzel, sans-serif;
 }
 
 .footer {
@@ -158,14 +168,18 @@ td {
 }
 
 .navbar{
-  background-color: #719171;
+  background-color: #0dc119;
 }
 
 .navbar-header:link{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .navbar-header:selection{
   color: black;
+}
+
+.navbuttons{
+  float: right;
 }
